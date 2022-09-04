@@ -1,6 +1,6 @@
 //add: Should be able to add numbers
 function add (num1, num2) {
-  return ;
+  return add.num1;
 }
 
 //subtract: Should be able to subtract numbers

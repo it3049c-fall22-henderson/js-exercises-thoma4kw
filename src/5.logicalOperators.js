@@ -2,14 +2,15 @@
 
 // or: should return true if either a or b are truthy. False, if both are false
 function or(a, b) {
-  return ;
+  return a==true||b==true;
 }
 
 //and: should return true only if both a and b are truthy
 function and(a, b) {
-  return ;
+  return a==true&&b==true;
 }
-
+var a = true;
+var b = false;
 module.exports = {
   or,
   and
