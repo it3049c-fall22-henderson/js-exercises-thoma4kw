@@ -10,7 +10,8 @@ function and(a, b) {
   return a==true&&b==true;
 }
 var a = true;
-var b = false;
+var b = true;
+
 module.exports = {
   or,
   and

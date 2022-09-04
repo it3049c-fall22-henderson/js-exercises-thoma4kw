@@ -9,9 +9,16 @@
  *      * must use the `class_of` property in the introduction
  */
 const personObject = {
+  first_Name: "Keshawn",
+  last_Name : "Thomas",
+  class_of : 25,
+  full_Name : function() {
+    return this.first_Name + " " + this.last_Name;
 
+},
+introduction : function() {
+  return "Welcome "+this.full_Name()+". Your class is "+this.class_of;
+}
 };
 
-module.exports = {
-  personObject
-};
+console.log(personObject.introduction());
