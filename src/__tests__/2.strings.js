@@ -1,4 +1,4 @@
-const stringsAnswers = require(`../2.strings`);
+const stringsAnswers = require(`../2.strings`).default;
 
 describe(`2.strings`, () => {
   describe(`.reverseString()`, () => {

@@ -1,6 +1,6 @@
 JS Exercise
 ===================================
-[![GitHub Classroom Workflow](https://s///github.com/it3049c-fall22-henderson/js-exercises-thoma4kw/actions/workflows/classroom.yml/badge.svg)](https://s///github.com/it3049c-fall22-henderson/js-exercises-thoma4kw/actions/workflows/classroom.yml)
+![Assignment Checks](https://github.com/IT3049C/2.JS-Exercise/workflows/Assignment%20Checks/badge.svg)
 
 Instructions to this assignment can be found [here](https://it3049c.github.io/Material/Assignments/2.JavaScript_Exercises/).
 
@@ -9,13 +9,13 @@ Instructions to this assignment can be found [here](https://it3049c.github.io/Ma
 ```md
 - [x] This task is complete.
 ```
-- [ ] All Unit tests passed.
-- [ ] filled out the self-evaluation.
-- [ ] filled out the self-reflection.
+- [ x] All Unit tests passed.
+- [x ] filled out the self-evaluation.
+- [x ] filled out the self-reflection.
 
 ## Self-Evaluation: 
 (For this assignment, there was 22 exercises checked by 68 automated checks)
-how many points out of 20 do you deserve on this assignment:
+how many points out of 20 do you deserve on this assignment: 20
 
 ## Self-Reflection:
 <!-- What did you learn that you found interesting -->

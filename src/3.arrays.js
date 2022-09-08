@@ -6,7 +6,7 @@
  * indexoff(arr, 3); should return the index 2
  */
 function indexOf(arr, item) {
-  return ;
+  return arr.indexOf(item);
 }
 
 // Sum: you should be able to sum the items of an array
@@ -18,13 +18,12 @@ function sum(arr) {
 // Filter: Should filter out all instances of a value from an array
 // Example: filtering 2 out of [1,2,3,5,6,2,4,2] should return [1,3,5,6,4]
 function filterOut(arr, item) {
-  return ;
+  return arr.indexOf(item);
 }
 
 // Append: you should be able to add an item to the end of an array
 function append(arr, item) {
-
-  return ;
+  return arr.indexOf(item) ;
 }
 
 // Truncate: you should be able to remove the last item of an array
@@ -35,7 +34,7 @@ function truncate(arr) {
 
 // Concat: you should be able to join together two arrays
 function concat(arr1, arr2) {
-  return ;
+  return arr1.indexOf(arr2);
 }
 
 // Insert: you should be able to add an item at the specified index of an array

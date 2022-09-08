@@ -5,7 +5,8 @@ const numbersAnswers = require(`../1.numbers`);
  * the code in the event that your tests fail. Here I am making the top level the name of the file/module. Then making
  * child describes to tell me which function and requirement I am testing.
  */
-describe(`1.numbers`, function () {
+describe(`1.numbers`, function parseInt (str) {
+  
   describe(`.add()`, () => {
     /**
      * We could have written one test here and called it good. However if our goal is the pass the test we could have done:
