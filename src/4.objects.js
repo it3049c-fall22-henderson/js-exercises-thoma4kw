@@ -11,13 +11,12 @@
 const personObject = {
   first_Name: "Keshawn",
   last_Name : "Thomas",
-  class_of : 25,
+  class_of : 2025,
   full_Name : function() {
-    return this.first_Name + " " + this.last_Name;
-
+    return this.first_name + " " + this.last_name;
 },
 introduction : function() {
-  return "Welcome "+this.full_Name()+". Your class is "+this.class_of;
+  return "Welcome" + this.full_Name + ". Your class is " + this.class_of;
 }
 };
 

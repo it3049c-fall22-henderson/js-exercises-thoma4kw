@@ -14,9 +14,11 @@
   return "fizz";
   else if (parseInt(num) % 5 === 0)
   return "buzz";
-  else if (Number.isInteger(num))
-  console.log("not number");
-  // return false;
-  else
+  else if (Number.isInteger(num));
+
+  else 
   return num;
-  }
+
+module.exports = {
+  fizzBuzz
+}}
