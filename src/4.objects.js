@@ -21,4 +21,6 @@ introduction : function() {
 }
 };
 
-console.log(personObject.introduction());
+module.exports ={
+  personObject
+};

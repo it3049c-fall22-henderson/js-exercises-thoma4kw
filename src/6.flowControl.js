@@ -6,10 +6,17 @@
  *    if the value was provided was a number but doesn't match any of those criteria, return the number as is.
  *    if no number was provided or if the value provided wasn't a number (hint: typeof), return false
  */
-function fizzBuzz(num) {
-  
-}
-
-module.exports = {
-  fizzBuzz
-};
+ function fizzBuzz(num) {
+  if (parseInt(num) % 3 == 0 && parseInt(num) % 5 == 0) //check to number is divisible by 3 and 5
+  console.log("hello");
+  //return "fizzbuzz";
+  else if (parseInt(num) % 3 === 0)
+  return "fizz";
+  else if (parseInt(num) % 5 === 0)
+  return "buzz";
+  else if (Number.isInteger(num))
+  console.log("not number");
+  // return false;
+  else
+  return num;
+  }
